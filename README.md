@@ -1,18 +1,18 @@
 
-#Introduction:
+# Introduction:
 
 As we learned in Automata and Formal Languages course, we know that the Hamiltonian cycle problem is NP-Hard, meaning it is easy to determine whether a given solution is correct (it is in fact a Hamiltonian cycle), however it is computationally hard to find such a solution.
 
-#The thought process:
+# The thought process:
 
 Logically two solutions come to mind, first: the naïve solution, being brute force, which is finding all combinations of the vertices in the given graph then checking whether each two adjacent vertices are in fact connected in the given graph (an edge exists between them), however this is extremely inefficient, and the second solution being: backtracking, which is the approach I took in my program.
 
-#The algorithm:
+# The algorithm:
 
 The backtracking algorithm is rather simple and self-explanatory:
 Starting with any given vertex ( I chose vertex 1), traverse the edges until finding a complete Hamiltonian cycle, or a dead end and backtrack. In my program the comments as well as the readability of the code make it very clear and simple to understand.
 
-#How to run:
+# How to run:
 
 There are 2 python files and 2 folders:
 Bonus1.py, Bonus1tester.py, Rand, Results.
