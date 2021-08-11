@@ -24,7 +24,7 @@ Where <path-to-instance> is the relative or absolute path to a given instance.
 Bonus1.py can receive more than one instance, for example you can run:
 “python bonus1.py <path-to-instance1> <path-to-instance2> <path-to-instance3>”.
 And the outputs for each instance will be located inside the results folder.
-Bonus1tester.py:   
+Bonus1tester.py:
 This is a program I wrote to batch test the rand tests, it runs each instance separately and then compares the output with the given solution in the instance, if both are the same Hamiltonian cycle it will print “PASSED!”, otherwise it
 will print the Hamiltonian cycle that the bonus1.py program found.
 If there is a filename that contains spaces in the working directory, it will prevent this
