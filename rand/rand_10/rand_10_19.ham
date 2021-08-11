@@ -1,0 +1,27 @@
+c
+c filename: rand_10_19.ham
+c 
+c Random Hamilton Cycle Problem (with 10 vertices and 19 edges)
+c One possible solution consists of the following edges:
+c [6-2,2-7,7-10,10-4,4-8,8-5,5-3,3-9,9-1,1-6]
+c 
+p edge 10 19
+e 1 6
+e 1 9
+e 2 4
+e 2 6
+e 2 7
+e 2 8
+e 3 5
+e 3 6
+e 3 7
+e 3 9
+e 4 7
+e 4 8
+e 4 9
+e 4 10
+e 5 8
+e 7 8
+e 7 10
+e 8 9
+e 9 10

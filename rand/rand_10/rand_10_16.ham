@@ -1,0 +1,24 @@
+c
+c filename: rand_10_16.ham
+c 
+c Random Hamilton Cycle Problem (with 10 vertices and 16 edges)
+c One possible solution consists of the following edges:
+c [9-4,4-7,7-8,8-10,10-3,3-6,6-1,1-2,2-5,5-9]
+c 
+p edge 10 16
+e 1 2
+e 1 5
+e 1 6
+e 1 7
+e 2 5
+e 2 7
+e 3 6
+e 3 7
+e 3 10
+e 4 5
+e 4 7
+e 4 9
+e 5 7
+e 5 9
+e 7 8
+e 8 10
